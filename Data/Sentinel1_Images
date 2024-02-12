@@ -1,1 +1,24 @@
+RGB ratio
+This script combines the gamma0 of the VV and VH polarizations into a false color visualization. It uses the VV polarization in the red channel, the VH polarization in the green channel, and a ratio of VH/VV in the blue channel. It shows water areas in dark red (black), urban areas in yellow, vegetated areas in turquoise, and bare ground in dark purple.
+
+For snowy and icy areas, the visualization can vary from light yellow to blue to red. In order not to confuse cryogenic features with non-cryogenic ones, some general information about the location is helpful in interpreting the image.
+
+This script is creating a type of image where different colors represent different things. It's using something called "polarizations" from radar signals, specifically VV (Vertical-Vertical) and VH (Vertical-Horizontal). These polarizations are just different ways the radar signal can be oriented.
+
+1. **Red Channel (VV polarization)**: This is used to represent the VV polarization in the red part of the image. It's particularly good at showing water areas, which will look dark red (almost black).
+
+2. **Green Channel (VH polarization)**: This is used for the VH polarization in the green part of the image. It's useful for highlighting urban areas, which will appear yellow.
+
+3. **Blue Channel (VH/VV ratio)**: This is a bit different. It's showing the ratio of VH to VV, in the blue part of the image. This helps to distinguish vegetated areas (which will look turquoise) and bare ground (which will look dark purple).
+
+For areas with snow and ice, the colors can vary from light yellow to blue to red. Because these colors can also represent other things (like urban areas or vegetation), it's important to know a bit about the location you're looking at to correctly interpret the image. For example, if you know an area is in the middle of a desert, you wouldn't interpret blue or light yellow areas as being icy or snowy. 
+
+In Synthetic Aperture Radar (SAR) imaging, polarization refers to the orientation of the plane in which the transmitted electromagnetic wave oscillates. The direction of polarization is defined by the orientation of the wave’s electric field, which is always 90°, or perpendicular, to its magnetic field.
+
+The two most common basis polarizations in SAR are horizontal linear (H) and vertical linear (V). 
+
+- **VV Polarization**: VV is a mode that transmits vertical waves and receives vertical waves to create the SAR image. This is often used when identifying specific types of vegetation with a lot of vertical structure.
+- **VH Polarization**: VH is a mode that transmits vertical waves and receives horizontal waves to create the SAR image. Cross-polarization (VH) is lower than co-polarization (VV) over flat surfaces because only a small part of the signal returns polarized (vertical turning horizontal) to the sensor. VH is often more suitable to describe variations in volume scattering (from vegetation or snow).
+
+By varying the polarization of the transmitted signal and receiving several different polarized images from the same series of pulses, SAR systems can gather detailed information on the polarimetric properties of the observed surface⁵. This can reveal the structure, orientation, and environmental conditions of the surface elements⁵. For example, linearly oriented structures such as buildings or ripples in the sand tend to reflect and preserve the coherence (same linear direction) of the polarimetric signal⁵. Randomly oriented structures such as tree leaves scatter and depolarize the signal as it bounces multiple times⁵.
 
