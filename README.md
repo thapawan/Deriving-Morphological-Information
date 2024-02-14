@@ -11,7 +11,8 @@ The size of the images is large (7GB) and it may vary based on region. Because I
 
 # Senor Modes - Interferometric Wide Swath (IW)
 The Interferometric Wide (IW) swath mode is the main acquisition mode over land and satisfies the majority of service requirements. 
-It acquires data with a 250 km swath at 5 m by 20 m spatial resolution (single look). For more information please visit: https://sentinels.copernicus.eu/web/s...
+It acquires data with a 250 km swath at 5 m by 20 m spatial resolution (single look). 
+For more information please visit: https://sentinels.copernicus.eu/web/s...
 
 # Product Type: Single Look Complex (SLC) and Ground Range Detected (GRD)
 
@@ -23,11 +24,14 @@ Level-1 Ground Range Detected (GRD) products consist of focused SAR data that ha
 
 For more information please visit: https://sentinel.esa.int/web/sentinel...
 
-🤝🏻Useful Web links
-📌Copernicus Data Space Ecosystem:
+# Useful Web links
+
+## Copernicus Data Space Ecosystem:
 https://dataspace.copernicus.eu/
-📌Sentinel Acquisition - Senor Modes ( SM, IW, EW, WV)
-https://sentinels.copernicus.eu/web/s...
+
+## Sentinel Acquisition - Senor Modes ( SM, IW, EW, WV)
+https://sentinels.copernicus.eu/web/s
+
 📌What is SLC and GRD (Product Type)?
 https://sentinel.esa.int/web/sentinel...
 📌What is Interferometric Wide Swath (IW)?
