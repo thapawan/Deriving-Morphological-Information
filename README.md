@@ -29,10 +29,11 @@ For more information please visit: https://sentinel.esa.int/web/sentinel...
 ## Copernicus Data Space Ecosystem:
 https://dataspace.copernicus.eu/
 
-## Sentinel Acquisition - Senor Modes ( SM, IW, EW, WV)
+## Sentinel Acquisition - Senor Modes (SM, IW, EW, WV)
 https://sentinels.copernicus.eu/web/s
 
-📌What is SLC and GRD (Product Type)?
+## What is SLC and GRD (Product Type)?
 https://sentinel.esa.int/web/sentinel...
-📌What is Interferometric Wide Swath (IW)?
+
+## What is Interferometric Wide Swath (IW)?
 https://sentinels.copernicus.eu/web/s...
